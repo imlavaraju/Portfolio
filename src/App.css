@@ -329,10 +329,15 @@ button:hover {
 @media screen and (max-width: 468px) {
   .aboutme h1 {
     font-size: 18px;
+    padding-bottom: 12px;
   }
   .aboutme p {
     font-size: 10px;
     padding-top: 6px;
+  }
+  .about_img {
+    order: 1;
+    margin-bottom: 0px;
   }
 }
 
