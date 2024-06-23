@@ -1,0 +1,183 @@
+[
+  {
+    "name": "AI Content Generator",
+    "liveUrl": "",
+    "githubUrl": "https://github.com/imlavaraju/AI_Content_Generator",
+    "image": ""
+  },
+  {
+    "name": "Portfolio",
+    "liveUrl": "",
+    "githubUrl": "https://github.com/imlavaraju/Portfolio",
+    "image": ""
+  },
+  {
+    "name": "DataHub",
+    "liveUrl": "https://userdatahub.vercel.app/login",
+    "githubUrl": "",
+    "image": ""
+  },
+  {
+    "name": "Book Store",
+    "githubUrl": "https://github.com/imlavaraju/Book-store-MERN_STACK",
+    "liveUrl": "https://bookstore-git-main-lavarajus-projects.vercel.app/",
+    "image": ""
+  },
+  {
+    "name": "CRUD Application",
+    "githubUrl": "https://github.com/imlavaraju/CRUD_Application",
+    "liveUrl": "",
+    "image": ""
+  },
+  {
+    "name": "Todo",
+    "githubUrl": "https://github.com/imlavaraju/React_todoproject",
+    "liveUrl": "",
+    "image": ""
+  },
+
+  {
+    "name": "Weather",
+    "githubUrl": "https://github.com/imlavaraju/RIDIV_weather",
+    "liveUrl": "",
+    "image": ""
+  },
+  {
+    "name": "Counter",
+    "githubUrl": "https://github.com/imlavaraju/React_projects/tree/main/1.Counter",
+    "liveUrl": "",
+    "image": ""
+  },
+  {
+    "name": "Stopwatch",
+    "githubUrl": "https://github.com/imlavaraju/React_projects/tree/main/stopwatch",
+    "liveUrl": "",
+    "image": ""
+  },
+  {
+    "name": "Time",
+    "githubUrl": "https://github.com/imlavaraju/React_projects/tree/main/time",
+    "liveUrl": "",
+    "image": ""
+  },
+  {
+    "name": "QR Code",
+    "githubUrl": "https://github.com/imlavaraju/frontend-challlenges/tree/main/1.QR_code",
+    "liveUrl": "",
+    "image": ""
+  },
+  {
+    "name": "Firebase Authentication",
+    "githubUrl": "  https://github.com/imlavaraju/Authenticationreactfirebase",
+    "liveUrl": "",
+    "image": ""
+  },
+  {
+    "name": "Skills Slider",
+    "githubUrl": "https://github.com/imlavaraju/webDev_projects/tree/main/1.Skills_slider",
+    "liveUrl": "https://imlavaraju.github.io/webDev_projects/1.Skills_slider/",
+    "image": ""
+  },
+  {
+    "name": "Profile Card",
+    "githubUrl": "  https://github.com/imlavaraju/webDev_projects/tree/main/2.Profile%20Card%20Design",
+    "liveUrl": "https://imlavaraju.github.io/webDev_projects/2.Profile%20Card%20Design/",
+    "image": ""
+  },
+  {
+    "name": "Counter",
+    "githubUrl": " https://github.com/imlavaraju/webDev_projects/tree/main/3.Counter",
+    "liveUrl": "https://imlavaraju.github.io/webDev_projects/3.Counter/",
+    "image": ""
+  },
+  {
+    "name": "Skills Wavy Animation",
+    "githubUrl": "  https://github.com/imlavaraju/webDev_projects/tree/main/4.Waivy%20animation",
+    "liveUrl": "https://imlavaraju.github.io/webDev_projects/4.Waivy%20animation/",
+    "image": ""
+  },
+  {
+    "name": "Guess Number",
+    "githubUrl": "https://github.com/imlavaraju/webDev_projects/tree/main/5.Guess%20number",
+    "liveUrl": "https://imlavaraju.github.io/webDev_projects/5.Guess%20number/",
+    "image": ""
+  },
+  {
+    "name": "Spinner",
+    "githubUrl": "https://imlavaraju.github.io/webDev_projects/spinner/",
+    "liveUrl": "https://imlavaraju.github.io/webDev_projects/spinner/",
+    "image": ""
+  },
+  {
+    "name": "Food Menu",
+    "githubUrl": "https://github.com/imlavaraju/coursera-web-development/tree/main/module3-solution",
+    "liveUrl": "https://imlavaraju.github.io/coursera-web-development/module3-solution/",
+    "image": ""
+  },
+  {
+    "name": "Food Website ",
+    "liveUrl": "https://imlavaraju.github.io/coursera-web-development/module5solution/index.html",
+    "githubUrl": "https://github.com/imlavaraju/coursera-web-development/tree/main/module5solution",
+    "image": ""
+  },
+  {
+    "name": "Netflix Clone Website",
+    "githubUrl": "https://github.com/imlavaraju/CVIP-web-development/tree/main/Phase-1/Netflix-clone-page",
+    "liveUrl": "https://imlavaraju.github.io/CVIP-web-development/Phase-1/Netflix-clone-page/",
+    "image": ""
+  },
+  {
+    "name": "",
+    "githubUrl": "https://github.com/imlavaraju/CVIP-web-development/tree/main/Phase-1/Online-Code-Editor",
+    "liveUrl": "https://imlavaraju.github.io/CVIP-web-development/Phase-1/Online-Code-Editor/",
+    "image": ""
+  },
+  {
+    "name": "Link Shortener",
+    "githubUrl": "https://github.com/imlavaraju/CVIP-web-development/tree/main/Phase-2/Link-Shortener",
+    "liveUrl": "https://imlavaraju.github.io/CVIP-web-development/Phase-2/Link-Shortener/",
+    "image": ""
+  },
+  {
+    "name": "Portfolio",
+    "githubUrl": "https://github.com/imlavaraju/CVIP-web-development/tree/main/Phase-2/Portfolio",
+    "liveUrl": "https://imlavaraju.github.io/CVIP-web-development/Phase-2/Portfolio/",
+    "image": ""
+  },
+  {
+    "name": "",
+    "githubUrl": "",
+    "liveUrl": "",
+    "image": ""
+  },
+  {
+    "name": "",
+    "githubUrl": "",
+    "liveUrl": "",
+    "image": ""
+  },
+  {
+    "name": "",
+    "githubUrl": "",
+    "liveUrl": "",
+    "image": ""
+  },
+  {
+    "name": "",
+    "githubUrl": "",
+    "liveUrl": "",
+    "image": ""
+  },
+  {
+    "name": "",
+    "githubUrl": "",
+    "liveUrl": "",
+    "image": ""
+  },
+  {
+    "name": "",
+    "githubUrl": "",
+    "liveUrl": "",
+    "image": ""
+  }
+]
