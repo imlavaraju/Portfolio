@@ -7,14 +7,14 @@
   },
   {
     "name": "Portfolio",
-    "liveUrl": "",
+    "liveUrl": "https://portfolio-xi-ebon-30.vercel.app/",
     "githubUrl": "https://github.com/imlavaraju/Portfolio",
     "image": ""
   },
   {
     "name": "DataHub",
     "liveUrl": "https://userdatahub.vercel.app/login",
-    "githubUrl": "",
+    "githubUrl": "https://github.com/imlavaraju/DataHub",
     "image": ""
   },
   {
@@ -30,9 +30,9 @@
     "image": ""
   },
   {
-    "name": "Todo",
+    "name": "ToDo",
     "githubUrl": "https://github.com/imlavaraju/React_todoproject",
-    "liveUrl": "",
+    "liveUrl": "https://react-todo-projects.vercel.app/",
     "image": ""
   },
 
