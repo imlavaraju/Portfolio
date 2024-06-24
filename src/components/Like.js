@@ -15,7 +15,7 @@ const Like = () => {
     e.preventDefault();
     if (name) {
       axios
-        .post("http://localhost:5000/likes", { name, liked })
+        .post("http://localhost:3000/likes", { name, liked })
         .then((response) => {
           console.log(response.data);
           if (response.data.liked === true) {
