@@ -11,7 +11,7 @@ const Navbar = () => {
     console.log(toggleMenu);
   };
   const likes = async () => {
-    const response = await axios.get("http://localhost:3000/likes");
+    const response = await axios.get("https://likes-server.vercel.app/likes");
     const data = await response.data;
     const lengthh = await data.length;
     setLikes(lengthh);
