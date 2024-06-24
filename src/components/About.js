@@ -63,7 +63,7 @@ const About = () => {
             <a href="https://wa.me/8499854798" target="_blank">
               <button className="hire">Hire Me</button>
             </a>
-            <a href="./resume" download>
+            <a href="/LavarajuG_MernDeveloper.pdf" download>
               <button className="resume">
                 Resume <RiDownloadCloud2Line />
               </button>
