@@ -10,7 +10,7 @@ const Contact = () => {
   });
   const [submitform, setSubmitform] = useState("");
   const [isLoading, setIsLoading] = useState(false);
-  const [like, setlike] = useState(false);
+  const [like, setlike] = useState(true);
   const [errors, setErrors] = useState({});
 
   const handleChange = (e) => {
