@@ -27,8 +27,8 @@ This is a personal portfolio website built with React.js, React Router, and vari
 
 1. **Clone the Repository**
    ```sh
-   git clone https://github.com/yourusername/portfolio-website.git
-   cd portfolio-website
+   git clone https://github.com/imlavaraju/Portfolio
+   cd Portfolio
    ```
 
 2. **Install Dependencies**
