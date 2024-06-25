@@ -101,7 +101,7 @@ const Contact = () => {
             If you want to drop a ideas or any doubts about my work contact me
           </h3>
           <h2>Drop a like if you like my portfolio</h2>
-          <button onClick={likehandler}> {like ? "Contact" : "liked"}</button>
+          <button onClick={likehandler}> {like ? "Switch to Contact" : "Switch to like"}</button>
         </div>
         {like ? (
           <Like />
