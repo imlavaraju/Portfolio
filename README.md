@@ -1,70 +1,114 @@
-# Portfolio
+# [Portfolio Website](https://portfolio-xi-ebon-30.vercel.app/)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a personal portfolio website built with React.js, React Router, and various other libraries. It showcases my projects, education, skills, and provides contact options.
 
-## Available Scripts
+## Table of Contents
+- [Portfolio Website](#portfolio-website)
+  - [Table of Contents](#table-of-contents)
+  - [Features](#features)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Components](#components)
+  - [Routes](#routes)
+  - [Backend Setup](#backend-setup)
+  - [Scripts](#scripts)
+  - [License](#license)
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Home Page**: Overview of about me, projects, skills, education, contact, and footer.
+- **Projects Page**: List of projects with GitHub and live links.
+- **Education Page**: Display of educational background.
+- **Contact Page**: Contact form with validation and submission.
+- **Likes**: Like button functionality to show appreciation.
+- **Responsive Design**: Mobile-friendly navigation and layout.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Installation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. **Clone the Repository**
+   ```sh
+   git clone https://github.com/yourusername/portfolio-website.git
+   cd portfolio-website
+   ```
 
-### `npm test`
+2. **Install Dependencies**
+   ```sh
+   npm install
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. **Start the React App**
+   ```sh
+   npm start
+   ```
 
-### `npm run build`
+4. **Setup JSON Server for Likes**
+   - Install JSON Server globally:
+     ```sh
+     npm install -g json-server
+     ```
+   - Create a `db.json` file in the root directory with the following content:
+     ```json
+     {
+       "likes": []
+     }
+     ```
+   - Start the JSON Server:
+     ```sh
+     json-server --watch db.json --port 3000
+     ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Usage
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. **Run the React Application**
+   ```sh
+   npm start
+   ```
+   This will start the application on `http://localhost:3000`.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. **Navigate the Application**
+   - **Home Page**: Overview of about me, projects, skills, education, and contact.
+   - **Projects Page**: Detailed view of all projects.
+   - **Education Page**: Educational background.
+   - **Contact Page**: Contact form to reach out.
 
-### `npm run eject`
+## Components
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### `App.js`
+- The main component that sets up the routes and includes the `Navbar`.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### `Home.js`
+- The home page component that includes sections for about, projects, skills, education, contact, and footer.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### `About.js`
+- Component displaying about me section with typing animation.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### `Projects.js`
+- Component for displaying a list of projects. Fetches data from a local JSON file.
 
-## Learn More
+### `Education.js`
+- Component displaying educational background.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### `Contact.js`
+- Component for the contact form with validation and submission functionality using Web3Forms.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### `Skills.js`
+- Component displaying skills with an option to show text or icons.
 
-### Code Splitting
+### `Like.js`
+- Component for the like button and form submission to JSON server.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### `Navbar.js`
+- Component for the navigation bar with toggle menu for mobile view.
 
-### Analyzing the Bundle Size
+### `Footer.js`
+- Component for the footer.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Routes
 
-### Making a Progressive Web App
+- **`/`**: Home Page
+- **`/projects`**: Projects Page
+- **`/education`**: Education Page
+- **`/contact`**: Contact Page
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
