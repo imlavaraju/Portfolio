@@ -42,19 +42,10 @@ This is a personal portfolio website built with React.js, React Router, and vari
    ```
 
 4. **Setup JSON Server for Likes**
-   - Install JSON Server globally:
-     ```sh
-     npm install -g json-server
-     ```
-   - Create a `db.json` file in the root directory with the following content:
-     ```json
-     {
-       "likes": []
-     }
-     ```
+  
    - Start the JSON Server:
      ```sh
-     json-server --watch db.json --port 3000
+     json-server --watch db.json --port 5000
      ```
 
 ## Usage
